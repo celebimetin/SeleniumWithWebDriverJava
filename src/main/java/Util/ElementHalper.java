@@ -34,5 +34,4 @@ public class ElementHalper {
     public void CheckVisible(By key){
         wait.until(ExpectedConditions.visibilityOf(FindElement(key)));
     }
-
 }
